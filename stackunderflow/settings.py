@@ -139,6 +139,12 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon': '100/day',
         'user': '3/day',
-        'question': '10/day',
+        'question': '4/day',
+        'question-post': '2/day',
+        'question-get': '10/day',
+        'question-put': '2/day',
+        'question-patch': '2/day',
+        'question-delete': '2/day',
+        'question-options': '10/day',
     }
 }
